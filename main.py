@@ -1,7 +1,7 @@
 import requests
 
 city = input(str('Introduce a valid city: '))
-api_key='1d69f2a6dedbd30a527389a2863c7f13'
+api_key=''
 units='metric'
 url = f'http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units={units}?'
 r = requests.get(url)
